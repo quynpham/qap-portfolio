@@ -46,15 +46,6 @@
   font-weight: 500;
 }
 
-body{
-  color: #31572c;
-}
-
-header{
-  background-color: #FCC0DE;
-  min-height: 100vh;
-}
-
 .wrapper{
   letter-spacing: 0.05rem;
   font-weight: 500;
