@@ -6,8 +6,8 @@ const About = () => {
   <section id="about" className="p-10 text-center md:p-20 md:text-left">
     <h2 className="text-lg p-2">About</h2>
     <div className="p-10 md:p-20 md:flex">
-      <img src={profilepic} alt="profilepic" className="m-1 w-1/2 h-1/2 md:w-1/4 md:1/4 rounded-full"/>
-      <p className="p-2 text-xs sm:text-base md:text-lg text-center">Former communication officer in a concert venue, I have just completed a fullstack web development course at le Wagon Brussels.
+      <img src={profilepic} alt="profilepic" className="m-auto w-1/2 h-1/2 md:w-1/4 md:1/4 rounded-full"/>
+      <p className="p-2 text-xs text-center sm:text-base md:text-lg md:m-5">Former communication officer in a concert venue, I have just completed a fullstack web development course at le Wagon Brussels.
   Skilled in communication and customer oriented, I am looking forward to learn more programming languages and build new apps.</p>
     </div>
     <a
