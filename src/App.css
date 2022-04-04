@@ -42,21 +42,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-
-.wrapper{
-  /* letter-spacing: 0.05rem;
-  font-weight: 500;
-  font-size: 1.15rem; */
-  display: block;
-  margin: 0;
-}
+  }
 
 .container-flip {
   position: relative;
   display: inline-block;
   width: 100%;
-  overflow: hidden;
 }
 
 .flip {

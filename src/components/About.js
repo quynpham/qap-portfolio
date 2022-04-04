@@ -4,7 +4,7 @@ import profilepic from '../assets/profilepic.jpg';
 const About = () => {
   return (
   <section id="about" className="py-10 text-center md:px-20 md:text-left">
-    <h2 className="text-framboise text-lg p-2">About</h2>
+    <h2 className="text-framboise text-5xl p-2">About</h2>
     <div className="p-3 md:p-20 md:flex">
       <img src={profilepic} alt="profilepic" className="m-auto w-1/2 h-1/2 md:w-1/4 md:1/4 rounded-full"/>
       <p className="my-3 text-framboise p-2 text-sm text-center sm:text-base md:text-lg md:m-5">Former communication officer in a concert venue, I have just completed a fullstack web development course at le Wagon Brussels in December 2021.
