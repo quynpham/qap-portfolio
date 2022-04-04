@@ -5,8 +5,8 @@ const Projects = () => {
   return (
     <section id="projects" className="w-screen mx-auto p-5 sm:p-10 md:p-16 bg-pistachio text-framboise">
       <h2>Projects</h2>
-      {ProjectsData.map((Project) => (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+        {ProjectsData.map((Project) => (
           <div className="max-w-md rounded overflow-hidden shadow-lg">
             <a href={Project.link} target="_blank" rel="noreferrer">
               <div className="relative">
@@ -23,9 +23,9 @@ const Projects = () => {
               </div>
             </a>
           </div>
-        </div>
-      ))
-      }
+        ))
+        }
+      </div>
     </section>
   )
 }
