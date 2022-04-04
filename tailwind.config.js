@@ -6,8 +6,8 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        'pistachio': '#CCD5AE',
         'framboise': '#F26A8D',
+        'seeweed': '#1A535C',
       }
     },
   },

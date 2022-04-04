@@ -2,7 +2,7 @@ import React from "react";
 
 const Home = () => {
   return (
-<section id="home" className="h-screen text-framboise bg-pistachio">
+<section id="home" className="h-screen text-seeweed bg-framboise">
     <div className="p-2 pl-8 pt-72 m-auto md:pt-96 md:pl-24 lg:pl-32 lg:pt-48">
       <h1 className="text-2xl md:text-5xl lg:text-7xl py-2">Hi, I'm Quynh Anh !</h1>
       <h1 className="text-2xl md:text-5xl lg:text-7xl py-2">I'm a <strong className="text-2xl md:text-5xl lg:text-7xl ">full-stack</strong></h1>
