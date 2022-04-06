@@ -3,11 +3,11 @@ import ProjectsData from "./ProjectsData";
 
 const Projects = () => {
   return (
-    <section id="projects" className="w-screen mx-auto py-10 sm:p-10 md:p-16 md:text-left bg-framboise text-seeweed">
-      <h2 className="text-center text-5xl p-2">Projects</h2>
+    <section id="projects" className="w-screen mx-auto py-10 sm:p-10 md:p-16 md:text-left bg-electricblue">
+      <h2 className="text-center text-5xl p-2 text-limegreen md:text-left">Projects</h2>
       <div className="grid grid-cols-1 p-3 md:py-20 md:grid-cols-2 gap-10">
         {ProjectsData.map((Project) => (
-          <div className="rounded overflow-hidden shadow-lg">
+          <div className="rounded overflow-hidden shadow-lg text-electricblue">
             <a href={Project.link} target="_blank" rel="noreferrer">
               <div className="relative">
                 <img className="w-full" src={Project.image} alt={Project.title}/>

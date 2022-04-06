@@ -4,7 +4,7 @@ import { GiSewingMachine, GiCoffeeCup, GiChiliPepper, GiMicrophone } from "react
 
 const Home = () => {
   return (
-<section id="home" className="h-screen text-seeweed bg-framboise">
+<section id="home" className="h-screen text-limegreen bg-electricblue">
     <div className="p-2 pl-8 pt-72 m-auto md:pt-96 md:pl-24 lg:pl-32 lg:pt-36 xl:pt-48">
       <h1 className="text-xl md:text-5xl lg:text-6xl py-2">Hi, my name is</h1>
       <h1 className="text-2xl md:text-6xl lg:text-7xl py-2"><strong>QUYNH ANH PHAM.</strong></h1>
