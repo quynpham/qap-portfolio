@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { BiMenuAltRight } from "react-icons/bi";
 import { IoMdClose } from "react-icons/io";
+import logoQap from "../assets/logo-png-limegreen.png";
 
 
 const Navbar = () => {
@@ -15,8 +16,8 @@ const Navbar = () => {
 
   return(
     <nav>
-      <div className="text-limegreen text-xl fixed w-screen flex justify-between z-40 wrapper p-4 sm:text-4xl md:text-5xl lg:text-6xl">
-        <a href="/" className="">Home</a>
+      <div className="text-limegreen text-4xl fixed w-screen flex justify-between z-40 wrapper p-4 sm:text-7xl md:text-7xl lg:text-8xl">
+        <a href="/" className=""><img src={logoQap} alt="logo QAP" className="w-10 md:w-20" /> </a>
         <button onClick={handleToggle} className="">{ navbarOpen ? <IoMdClose/> : <BiMenuAltRight/> }</button>
       </div>
       <div className="flex flex-col wrapper">
