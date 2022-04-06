@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return(
     <nav>
-      <div className="text-gray-50 text-5xl fixed w-screen flex justify-between z-40 wrapper p-4">
+      <div className="text-gray-50 text-xl fixed w-screen flex justify-between z-40 wrapper p-4 sm:text-4xl md:text-5xl lg:text-6xl">
         <a href="/" className="">Home</a>
         <button onClick={handleToggle} className="">{ navbarOpen ? <IoMdClose/> : <BiMenuAltRight/> }</button>
       </div>
