@@ -15,7 +15,7 @@ const Footer = () => {
         </ul>
       </div>
       <div className="p-2.5 hover:text-gray-50">
-      <a class="email-link" href="mailto:qap.pham@gmail.com" rel="noopener noreferrer" target="_blank">qap.pham@gmail.com</a>
+      <a href="mailto:qap.pham@gmail.com" rel="noopener noreferrer" target="_blank">qap.pham@gmail.com</a>
       </div>
       <p className="p-2.5">Designed and Built by Quynh Anh Pham</p>
     </div>

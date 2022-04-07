@@ -29,7 +29,7 @@ const Contact = () => {
     <section id="contact" className="relative text-electricblue ">
       <div className="py-10 mx-auto flex sm:flex-nowrap flex-wrap md:px-20 md:text-left px-5">
         <form
-          netlify
+          netlify="true"
           name="contact"
           onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:m-auto w-full md:py-8 mt-8 md:mt-0">
