@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { BiMenuAltRight } from "react-icons/bi";
 import { IoMdClose } from "react-icons/io";
 import logoQap from "../assets/logo-png-limegreen.png";
@@ -7,6 +7,7 @@ import resume from "../assets/QAP-Junior-FrontEnd-Dev-2022.pdf";
 
 
 const Navbar = () => {
+  const [ navbar, setNavbar ] = useState(false)
   const [navbarOpen, setNavbarOpen ] = useState(false)
 
   const handleToggle = () => setNavbarOpen(!navbarOpen)
@@ -15,10 +16,25 @@ const Navbar = () => {
     setNavbarOpen(false)
   }
 
+  const changeBackground = () => {
+    console.log(window.scrollY)
+    if (window.scrollY >= 66) {
+      setNavbar(true)
+    } else {
+      setNavbar(false)
+    }
+  }
+
+  useEffect(() => {
+    changeBackground()
+    // adding the event when scroll change background
+    window.addEventListener("scroll", changeBackground)
+  })
+
   return(
     <nav>
-      <div className="text-limegreen text-4xl fixed w-screen flex justify-between z-40 wrapper p-4 sm:text-7xl md:text-7xl lg:text-8xl">
-        <a href="/" className=""><img src={logoQap} alt="logo QAP" className="w-10 md:w-20" /> </a>
+      <div className={`bg-electricblue text-limegreen text-4xl fixed w-screen flex justify-between z-40 wrapper p-4 sm:text-5xl ${navbar ? "bg-opacity-70" : ""}`}>
+        <a href="/" className=""><img src={logoQap} alt="logo QAP" className="w-10 md:w-14" /> </a>
         <button onClick={handleToggle} className="">{ navbarOpen ? <IoMdClose/> : <BiMenuAltRight/> }</button>
       </div>
       <div className="flex flex-col wrapper">
