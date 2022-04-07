@@ -3,6 +3,7 @@ import { useState } from "react";
 import { BiMenuAltRight } from "react-icons/bi";
 import { IoMdClose } from "react-icons/io";
 import logoQap from "../assets/logo-png-limegreen.png";
+import resume from "../assets/QAP-Junior-FrontEnd-Dev-2022.pdf";
 
 
 const Navbar = () => {
@@ -36,6 +37,15 @@ const Navbar = () => {
           <li className="text-electricblue text-3xl text-center py-4 mb-4 border-b border-limegreen">
             <a href="#contact" className="px-1"
             onClick={() => closeMenu()}>Contact</a>
+          </li>
+          <li className="text-electricblue text-3xl text-center py-4 mb-4 border-b border-limegreen">
+            <a href={`${resume}`}
+            target="_blank"
+            rel="noreferrer"
+            className="px-1"
+            onClick={() => closeMenu()}
+            >
+            Resume</a>
           </li>
         </ul>
       </div>
