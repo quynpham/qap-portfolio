@@ -38,13 +38,15 @@ const About = () => {
           {skills.map((skill) => <Skill key={skill.id} icon={skill.icon} name={skill.name}/>)}
         </ul>
       </div>
-      <a
-        href="#contact"
-        className="inline-block w-auto h-auto m-3 sm:text-base md:text-lg text-gray-50 bg-electricblue border border-electricblue py-2 px-4 focus:outline-none hover:bg-transparent hover:text-electricblue
+      <div className="place-self-center inline-block pt-10">
+        <a
+          href="#contact"
+          className="text-center m-3 sm:text-base md:text-lg text-gray-50 bg-electricblue border border-electricblue py-2 px-4 focus:outline-none hover:bg-transparent hover:text-electricblue
 
-        rounded">
-        Let's have a chat!
-      </a>
+          rounded">
+          Let's have a chat!
+        </a>
+      </div>
     </div>
   </section>
   )
