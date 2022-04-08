@@ -29,8 +29,8 @@ const About = () => {
     <div className="p-3 md:p-5 md:flex flex-col">
       <div className="flex flex-col md:flex-row">
         <img src={profilepic} alt="profilepic" className="m-auto w-1/2 h-1/2 md:w-1/4 md:1/4 rounded-full"/>
-        <p className="my-3 p-2 md:m-5 text-xs text-justify sm:text-base">Former communication officer in a concert venue, I made a life-changing decision by chosing to become a web developer. I enrolled in a 9-week fullstack web development bootcamp at <a href="https://www.lewagon.com/fr/brussels" target="_blank" rel="noreferrer">le Wagon Brussels</a> from wich I graduated in December 2021. It was intense but I loved learning HTML, CSS, Bootstrap, JavaScript ES6,
-          SQL, git, GitHub, Heroku and Ruby on Rails. We also designed, implemented and shipped to production a clone of AirBnB and a Rails prototype of <a href="#projects">RecyclAID</a>. I am currently working on improving my skills and understanding of Javascript and React. </p>
+        <p className="my-3 p-2 md:m-5 text-xs text-justify sm:text-base">Former communication officer in a concert venue, I made a life-changing decision by chosing to become a web developer. I enrolled in a 9-week fullstack web development bootcamp at <a href="https://www.lewagon.com/fr/brussels" target="_blank" rel="noreferrer" className="hover:text-limegreen">le Wagon Brussels</a> from wich I graduated in December 2021. It was intense but I loved learning HTML, CSS, Bootstrap, JavaScript ES6,
+          SQL, git, GitHub, Heroku and Ruby on Rails. We also designed, implemented and shipped to production a clone of AirBnB and a Rails prototype of <a href="#projects" className="hover:text-limegreen">RecyclAID</a>. I am currently working on improving my skills and understanding of Javascript and React. </p>
       </div>
       <div className="my-3 p-2 md:m-5">
         <h3 className="m-5">Skills & tools</h3>
